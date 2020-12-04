@@ -1,0 +1,28 @@
+{
+  "name": "currency-list",
+  "version": "1.0.0",
+  "description": "Currencylist with multi locales",
+  "main": "lib/index.js",
+  "scripts": {
+    "build" : "tsc",
+    "prepare" : "npm run build",
+    "version" : "git add -A src",
+    "postversion" : "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["lib/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webplan-pro/currency-list.git"
+  },
+  "keywords": ["currency", "list", "locale"],
+  "author": "Artūras Sotničenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webplan-pro/currency-list/issues"
+  },
+  "homepage": "https://github.com/webplan-pro/currency-list#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
