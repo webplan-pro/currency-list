@@ -17,7 +17,7 @@ class CurrencyList {
     constructor() {
         this.currencyList = currencyList
     }
-    public getAll(locale_code: string) {
+    public getAll(locale_code?: string) {
         return locale_code ? this.currencyList[locale_code] : this.currencyList
     }
     public get(currency_code: string, locale_code: string = 'en_US') {

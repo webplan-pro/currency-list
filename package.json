@@ -1,7 +1,7 @@
 {
   "name": "currency-list",
   "version": "1.0.1",
-  "description": "Currencylist with multi locales",
+  "description": "Localized currency list",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
