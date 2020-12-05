@@ -1,4 +1,3 @@
-// @ts-ignore
 import * as currencyList from "./currency-list.json"
 class CurrencyList {
     currencyList: {
