@@ -8,17 +8,24 @@
     "build" : "tsc",
     "prepare" : "npm run build",
     "version" : "git add -A src",
-    "postversion" : "git push && git push --tags",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postversion" : "git push && git push --tags"
   },
   "files": ["lib/**/*"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webplan-pro/currency-list.git"
   },
-  "keywords": ["currency", "list", "locale"],
+  "keywords": [
+    "currency",
+    "list",
+    "locale",
+    "symbol",
+    "ISO",
+    "4217",
+    "code"
+  ],
   "author": "Artūras Sotničenko",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webplan-pro/currency-list/issues"
   },
