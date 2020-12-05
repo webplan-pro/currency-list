@@ -10,6 +10,7 @@ Package available via:
 ## Usage
 
 Module exports `CurrencyList` and functions `get(currency_code, locale = 'en_us')` and `getAll(locale?)`
+where `currency_code` is ISO 4217 currency code and `locale` is ISO 3166‑1
 ### Example 
 ```
 import CurrencyList from 'CurrencyList'
@@ -38,7 +39,6 @@ console.log(CurrencyList.get("UAH", 'zh'))
     decimal_digits: 2
   } as in 'zh' locale */
 ```
-Currency code: ISO 3166-1 alpha-2 code (with alpha-2 to alpha-3 set), name, ISO 639-1 languages, capital and currency, native name, calling codes. Lists are available in JSON, CSV and SQL formats. Also, contains separate JSON files with additional country Emoji flags data.
 
 ## Contributing
 
