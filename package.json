@@ -1,16 +1,18 @@
 {
   "name": "currency-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Currencylist with multi locales",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build" : "tsc",
-    "prepare" : "npm run build",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webplan-pro/currency-list.git"
