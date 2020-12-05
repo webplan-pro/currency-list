@@ -5,7 +5,7 @@ Utility package for localized currency list
 ## Installation
 
 Package available via:
-* NPM `npm install curency-list`
+* NPM `npm install currency-list`
 
 ## Usage
 
@@ -14,7 +14,7 @@ Module exports `CurrencyList` and functions `get(currency_code, locale = 'en_us'
 ```
 import CurrencyList from 'CurrencyList'
  
- console.log(CurrencyList.getAll()) // Prints all currency lists for all locales
+console.log(CurrencyList.getAll()) // Prints all currency lists for all locales
 console.log(CurrencyList.getAll('en_US')) // Prints all currency lists for en_US locale
 console.log(CurrencyList.get("EUR")) 
 /* Prints  {
