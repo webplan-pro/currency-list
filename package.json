@@ -33,6 +33,8 @@
   },
   "homepage": "https://github.com/webplan-pro/currency-list#readme",
   "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "currency-list": "*",
     "typescript": "^4.1.2"
   }
 }
