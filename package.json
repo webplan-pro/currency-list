@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "test": "jest",
     "build": "tsc",
     "prepare": "npm run build",
     "version": "git add -A src",
@@ -35,6 +36,10 @@
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "currency-list": "*",
-    "typescript": "^4.1.2"
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack-cli": "^4.9.2"
   }
 }
