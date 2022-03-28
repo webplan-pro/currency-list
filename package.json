@@ -1,9 +1,8 @@
 {
   "name": "currency-list",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Localized currency list",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "webpack",
